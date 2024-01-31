@@ -1,0 +1,49 @@
+:root{
+    --project-brown:#B47B48;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+ul{
+    list-style-type:none;
+}
+p,h3,h2,h1,ul,img,div{
+    margin:0;
+    padding:0;
+}
+html{
+    background-color:black;
+}
+body{
+    font-family:'Inter', sans-serif;
+    font-size: 24px;
+    font-weight:200;
+    color:white;
+    line-height: 1.21 ;
+}
+.hero-title{
+    font-size:70px;
+    font-weight:200;
+}
+.hero-text{
+    font-weight:300;
+    font-size:21px;
+}
+.hero-link{
+    display:inline-block;
+    font-weight:300;
+    padding:16px 34px 7px;
+    background-color: var(--project-brown);
+    border-radius:17px;
+    margin:33px 0 125px;
+}
+.hero-list-name{
+    font-size:16px;
+    font-weight:500;
+}
+.hero-list-btn{
+    font-weight:900;
+    font-family:'Inter', sans-serif;
+    line-height:1.21;
+}
