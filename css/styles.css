@@ -39,14 +39,14 @@ button{
     display:flex;
     flex-direction:row;
     gap:28px;
-    padding-top:54px;
+    padding-top:55px;
 }
 .hero{
     background-image: url('../img/background1.jpg');
     background-size: 1440px auto;
     background-position:center;
     background-repeat:no-repeat;
-    padding-top:93px;
+    padding-top:70px;
     padding-bottom:36px;
 }
 .hero-title{
@@ -89,7 +89,6 @@ button{
 }
 .hero-list-item:hover{
     background-color:var(--back-brown);
-    background-image:linear-gradient(to right, rgba(128, 128, 128, 0.825) 40%,rgba(128, 128, 128, 0));
 }
 .hero-list-item{
     /* w, h, flex, column, padding (move to right edge) */
@@ -100,17 +99,17 @@ button{
     background-position:left;
 }
 .hero-list-item:first-child{
-    background-image:url('../img/traditional1.png');
+    background-image:linear-gradient(to right,rgba(0,0,0,0.3552036199095022) 30%, rgba(0,0,0,0) 73%), url('../img/traditional1.png');
     padding-top:51px;
     padding-left:162px;
 }
 .hero-list-item:nth-child(2){
-    background-image:url('../img/traditional2.png');
+    background-image:linear-gradient(to right,rgba(0,0,0,0.3552036199095022) 30%, rgba(0,0,0,0) 73%), url('../img/traditional2.png');
     padding-top:51px;
     padding-left:200px;
 }
 .hero-list-item:nth-child(3){
-    background-image:url('../img/traditional3.png');
+    background-image:linear-gradient(to right,rgba(0,0,0,0.3552036199095022) 30%, rgba(0,0,0,0) 73%), url('../img/traditional3.png');
     padding-left:185px;
     padding-top:27px;
 }
@@ -169,6 +168,7 @@ button{
     text-align:center;
     font-size:64px;
     font-weight:100;
+    margin-bottom:17px;
 }
 .menu-list-container{
     display:flex;
@@ -263,7 +263,7 @@ button{
     padding-bottom:52px;
     background-image:linear-gradient(to right, black 30%, rgba(3,3,3,0)), url('../img/backgroundimg2.jpg');
     background-repeat:no-repeat;
-    background-size:1440px;
+    background-size:1440px 590px;
     background-position:center;
 }
 .why-title, .location-title {
