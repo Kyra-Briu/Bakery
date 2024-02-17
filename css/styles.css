@@ -51,7 +51,6 @@ button{
     background-image: url('../img/background1.jpg');
     background-size: cover;
     background-position:center;
-    background-repeat:no-repeat;
     padding: 155px 0 36px;
 }
 .hero-title{
@@ -101,21 +100,6 @@ button{
     background-repeat:no-repeat;
     background-position:left;
 }
-.hero-list-item:first-child{
-    background-image:linear-gradient(to right,rgba(0,0,0,0.3552036199095022) 30%, rgba(0,0,0,0) 73%), url('../img/traditional1.png');
-    padding-top:51px;
-    padding-left:162px;
-}
-.hero-list-item:nth-child(2){
-    background-image:linear-gradient(to right,rgba(0,0,0,0.3552036199095022) 30%, rgba(0,0,0,0) 73%), url('../img/traditional2.png');
-    padding-top:51px;
-    padding-left:200px;
-}
-.hero-list-item:nth-child(3){
-    background-image:linear-gradient(to right,rgba(0,0,0,0.3552036199095022) 30%, rgba(0,0,0,0) 73%), url('../img/traditional3.png');
-    padding-left:185px;
-    padding-top:27px;
-}
 .hero-list-price{
     text-align:center;
 }
@@ -126,12 +110,28 @@ button{
     font-weight:500;
     text-align:center;
 }
-.crushed-choco{
+.hero-list-item:first-child{
+    background-image:linear-gradient(to right,rgba(0,0,0,0.3552036199095022) 30%, rgba(0,0,0,0) 73%), url('../img/traditional1.png');
+    padding-top:51px;
+    padding-left:162px;
+}
+.hero-list-item:nth-child(2){
+    background-image:linear-gradient(to right,rgba(0,0,0,0.3552036199095022) 30%, rgba(0,0,0,0) 73%), url('../img/traditional2.png');
+    padding-top:51px;
+    padding-left:200px;
+}
+.hero-list-item:nth-child(2) .hero-list-name{
     margin-top:0;
 }
-.berry-pie{
+.hero-list-item:nth-child(3){
+    background-image:linear-gradient(to right,rgba(0,0,0,0.3552036199095022) 30%, rgba(0,0,0,0) 73%), url('../img/traditional3.png');
+    padding-left:185px;
+    padding-top:27px;
+}
+.hero-list-item:nth-child(3) .hero-list-name{
     margin-top:13px;
 }
+
 .hero-list-btn{
     display:block;
     margin:0 auto;
@@ -170,7 +170,7 @@ button{
     text-align:center;
     font-size:64px;
     font-weight:100;
-    margin-bottom:17px;
+    padding-bottom:17px;
 }
 .menu-list-container{
     display:flex;
@@ -192,7 +192,6 @@ button{
 }
 .menu-list-titles{
     text-align:center;
-    margin:0;
 }
 .menu-list-titles, .menu-btn{
     font-size:25px;
